@@ -1,53 +1,37 @@
 import type { GrupoUnidade } from "@/types";
 
 /**
- * Os grupos de WhatsApp por unidade. É o único arquivo que precisa mudar
- * para incluir, editar, reordenar ou remover uma unidade — a lista da
- * página se ajusta sozinha.
+ * O WhatsApp de cada unidade. É o único arquivo que precisa mudar para
+ * incluir, editar, reordenar ou remover uma unidade — a lista da página
+ * se ajusta sozinha.
  *
- * ATENÇÃO: os links abaixo são PLACEHOLDER e não abrem grupo nenhum.
- * Troque cada `link` pelo convite real (no WhatsApp: abra o grupo >
- * Dados do grupo > Convidar via link > Copiar link).
+ * Formato do link: https://wa.me/55 + DDD + número com o 9, só dígitos.
+ * Ex.: (61) 9 8255-5095 → https://wa.me/5561982555095
  */
 export const grupos: GrupoUnidade[] = [
   {
-    id: "jardim-botanico",
-    nome: "Jardim Botânico",
-    link: "https://chat.whatsapp.com/IC3zGUZoAQ6J3onZ6YoieP",
+    id: "eptg",
+    nome: "EPTG",
+    link: "https://wa.me/5561982555095",
   },
   {
-    id: "vicente-pires",
-    nome: "Vicente Pires",
-    link: "https://chat.whatsapp.com/C2ouFcbHokwBjkgbVKAydp",
+    id: "aguas-claras",
+    nome: "Águas Claras",
+    link: "https://wa.me/5561995742168",
+  },
+  {
+    id: "asa-sul",
+    nome: "Asa Sul",
+    link: "https://wa.me/5561995767725",
   },
   {
     id: "asa-norte",
     nome: "Asa Norte",
-    link: "https://chat.whatsapp.com/DIVfW9nxV0o6kGCY6Cfwde",
+    link: "https://wa.me/5561996781009",
   },
   {
-    id: "guara",
-    nome: "Guará",
-    link: "https://chat.whatsapp.com/Fkx7jmowsQFKnaUCEy49yg",
-  },
-  {
-    id: "santa-maria",
-    nome: "Santa Maria",
-    link: "https://chat.whatsapp.com/FP4EzLZM8qGDtM09C3C2lS",
-  },
-  {
-    id: "samambaia",
-    nome: "Samambaia",
-    link: "https://chat.whatsapp.com/EBIVNRAX2L1GJNHciDhU3T",
-  },
-  {
-    id: "taguatinga-qi",
-    nome: "Taguatinga QI",
-    link: "https://chat.whatsapp.com/EEUqFdE6Qvv4KRrfBZofHE",
-  },
-    {
-    id: "Águas Claras",
-    nome: "Águas Claras",
-    link: "https://chat.whatsapp.com/I48YQVClsgU1BHW4rO8veX",
+    id: "valparaiso",
+    nome: "Valparaíso",
+    link: "https://wa.me/5561995724077",
   },
 ];

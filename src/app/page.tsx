@@ -15,7 +15,7 @@ export default function Home() {
           <Banner />
 
           <h1 className="mt-8 text-center text-2xl leading-tight font-semibold text-balance text-white sm:text-3xl lg:mt-10 lg:text-4xl">
-            Escolha o grupo da sua unidade
+            Fale com a sua unidade
           </h1>
         </div>
 

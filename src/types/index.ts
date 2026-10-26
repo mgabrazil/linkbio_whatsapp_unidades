@@ -3,6 +3,6 @@ export type GrupoUnidade = {
   id: string;
   /** Nome da região/unidade, como aparece no cartão. Ex.: "Asa Norte". */
   nome: string;
-  /** Convite do grupo. Ex.: "https://chat.whatsapp.com/AbCdEf123456". */
+  /** Link do WhatsApp da unidade. Ex.: "https://wa.me/5561982555095". */
   link: string;
 };

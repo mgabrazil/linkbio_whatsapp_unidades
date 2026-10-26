@@ -11,8 +11,8 @@ export function ContainerMain({ grupos }: { grupos: GrupoUnidade[] }) {
         className="bg-navy absolute inset-y-[2.8%] right-[10.5%] w-[262px] rounded-3xl lg:inset-0 lg:right-0 lg:w-auto"
       />
 
-      <p className="absolute top-[6%] right-[18%] left-[50%] text-right text-[18px] leading-snug font-semibold text-white/90 sm:text-[20px] lg:inset-x-0 lg:top-[7%] lg:text-center">
-        Receba oportunidades exclusivas
+      <p className="absolute top-[6%] right-[18%] left-[50%] text-right text-[18px] leading-snug font-semibold text-white/90 sm:text-[20px] lg:inset-x-0 lg:top-[8%] lg:text-center">
+        Tire suas dúvidas e compre uniformes Objetivo e Sigma
       </p>
 
       <Image

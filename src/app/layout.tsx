@@ -13,7 +13,7 @@ const jakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.name} — escolha o grupo da sua unidade`,
+    default: `${siteConfig.name} — fale com a sua unidade`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,

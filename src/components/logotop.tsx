@@ -8,15 +8,7 @@ export function LogosTop() {
         width={4096}
         height={892}
         priority
-        className="h-[33px] w-auto sm:h-7"
-      />
-      <Image
-        src="/images/Logo-Objetivo.png"
-        alt="Objetivo"
-        width={1695}
-        height={268}
-        priority
-        className="h-[20px] w-auto sm:h-5"
+        className="h-[33px] w-auto sm:h-10"
       />
     </div>
   );
